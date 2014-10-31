@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#game-screen {
+    display: block;
+}
+
+
+#gameOver, #playHUD {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+
+.title {
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+#restartButton {
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+
+#restartButton:hover {
+    background-color: white;
+}
+
+
+#scoreboard {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.jumbotron {
+    background: url(images/grass.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 25px solid black;
+}
+
+
+#jumbotronh1 {
+    color: white;
+}
+
+
+#indexbody {
+    background-image: url(images/dirt.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#indexp {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+#homeButtons {
+    text-decoration: none;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+
+#homeButtons:hover {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+}
+
+
+#buttononmenu {
+    text-decoration: none;
+    color: black;
+}
